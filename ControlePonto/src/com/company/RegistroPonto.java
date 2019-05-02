@@ -1,5 +1,6 @@
 package com.company;
 
+import javax.swing.text.DateFormatter;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -39,22 +40,22 @@ public class RegistroPonto {
         return horaEntrada;
     }
 
-    public void setHoraEntrada(int hora, int minuto) {
-        this.horaEntrada = LocalTime.of(hora, minuto);;
+    public void setHoraEntrada(LocalTime time) {
+        this.horaEntrada = time;
     }
 
     public LocalTime getHoraSaida() {
         return horaSaida;
     }
 
-    public void setHoraSaida(int hora, int minuto) {
-        this.horaSaida = LocalTime.of(hora, minuto);
+    public void setHoraSaida(LocalTime time) {
+        this.horaSaida = time;
     }
 
 
     public String apresentarRegistroPonto() {
         return "\n func=" + func.getNome() +
-                "\n dataRegistro=" + dataRegistro +
+                "\n dataRegistro=" +
                 "\n horaEntrada=" + horaEntrada +
                 "\n horaSaida=" + horaSaida;
     }

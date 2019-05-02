@@ -14,12 +14,12 @@ public class GerenciarControlePonto {
 	    RegistroPonto rg = new RegistroPonto();
 	    rg.setFunc(gerente);
 	    rg.setDataRegistro(LocalDate.of(2019,05,01));
-	    rg.setHoraEntrada(8,00);
-	    rg.setHoraSaida(17, 30);
+	    rg.setHoraEntrada(LocalTime.now());
+
 
         System.out.println(rg.apresentarRegistroPonto());
 
-		Thread.sleep(4000);
+		Thread.sleep(2000);
 
 
 		Gerente gerente1 = new Gerente();
@@ -27,10 +27,15 @@ public class GerenciarControlePonto {
 		gerente1.setDocumento("34324324");
 		RegistroPonto rg1 = new RegistroPonto();
 		rg1.setFunc(gerente);
-		rg1.setDataRegistro(LocalDate.of(2019,05,01));
-		rg1.setHoraEntrada(8,00);
-		rg1.setHoraSaida(17, 30);
-
+		rg1.setDataRegistro(LocalDate.now());
+		rg1.setHoraEntrada(LocalTime.now());
 		System.out.println(rg1.apresentarRegistroPonto());
+		Thread.sleep(2000);
+		rg.setHoraSaida(LocalTime.now());
+		System.out.println(rg.apresentarRegistroPonto());
+		Thread.sleep(2000);
+		rg1.setHoraSaida(LocalTime.now());
+		System.out.println(rg1.apresentarRegistroPonto());
+
     }
 }
