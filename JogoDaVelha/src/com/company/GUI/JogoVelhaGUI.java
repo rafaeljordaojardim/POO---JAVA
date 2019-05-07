@@ -54,7 +54,7 @@ public class JogoVelhaGUI extends JFrame{
             button.setEnabled(true);
 
         }
-        jogo.setJogador("O");
+        jogo.setJogador("");
         jogo.setCont(0);
         jogo.setMatriz(new String[3][3]);
         jogo.setGanhou(false);

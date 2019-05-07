@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JogoDaVelha/com/company/GUI/JogoVelhaGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JogoDaVelha/com/company/GUI/JogoVelhaGUI$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JogoDaVelha/com/company/GUI/JogoVelhaGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JogoDaVelha/com/company/GUI/JogoVelhaGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+            <state relative-caret-position="238">
+              <caret line="56" column="25" lean-forward="true" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557262471110</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="colocando renicialização fora do for">
+      <created>1557262524513</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557262524513</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -217,7 +223,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tirando a variavel do ganhou de dentro do metodo" />
-    <option name="LAST_COMMIT_MESSAGE" value="tirando a variavel do ganhou de dentro do metodo" />
+    <MESSAGE value="colocando renicialização fora do for" />
+    <option name="LAST_COMMIT_MESSAGE" value="colocando renicialização fora do for" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/GUI/jogoDaVelhaGUI.form" />
@@ -250,8 +257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+        <state relative-caret-position="238">
+          <caret line="56" column="25" lean-forward="true" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
