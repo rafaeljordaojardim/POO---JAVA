@@ -52,10 +52,12 @@ public class JogoVelhaGUI extends JFrame{
         for (JButton button: buttons) {
             button.setText("Click");
             button.setEnabled(true);
-            jogo.setJogador("O");
-            jogo.setCont(0);
-            jogo.setMatriz(new String[3][3]);
+
         }
+        jogo.setJogador("O");
+        jogo.setCont(0);
+        jogo.setMatriz(new String[3][3]);
+        jogo.setGanhou(false);
     }
 
     private void fazerAlgoComOBotao(ActionEvent e) {

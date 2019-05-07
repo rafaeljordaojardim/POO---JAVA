@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="275d1a74-ca15-4e3c-9148-4900153723e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JogoDaVelha/com/company/GUI/JogoVelhaGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JogoDaVelha/com/company/GUI/JogoVelhaGUI$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JogoDaVelha/com/company/GUI/JogoVelhaGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JogoDaVelha/com/company/GUI/JogoVelhaGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="289">
+              <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Control/JogoDaVelhaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="582">
               <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,8 +83,8 @@
         <option value="$PROJECT_DIR$/src/com/company/GUI/jogoVelhaGUI.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.form" />
-        <option value="$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.java" />
         <option value="$PROJECT_DIR$/src/com/company/Control/JogoDaVelhaController.java" />
+        <option value="$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.java" />
       </list>
     </option>
   </component>
@@ -99,54 +99,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JogoDaVelha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JogoDaVelha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JogoDaVelha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JogoDaVelha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JogoDaVelha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JogoDaVelha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JogoDaVelha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JogoDaVelha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="Control" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JogoDaVelha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JogoDaVelha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JogoDaVelha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JogoDaVelha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="462c0819:PsiDirectoryNode" />
-              <item name="JogoVelhaGUI" type="e9f4de52:FormNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -192,6 +145,14 @@
       <option name="presentableId" value="Default" />
       <updated>1556802598184</updated>
     </task>
+    <task id="LOCAL-00001" summary="tirando a variavel do ganhou de dentro do metodo">
+      <created>1557262471110</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557262471110</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -254,23 +215,14 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tirando a variavel do ganhou de dentro do metodo" />
+    <option name="LAST_COMMIT_MESSAGE" value="tirando a variavel do ganhou de dentro do metodo" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/GUI/jogoDaVelhaGUI.form" />
     <entry file="file://$PROJECT_DIR$/src/com/company/GUI/jogoDaVelhaGUI.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Control.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -281,14 +233,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Control/JogoDaVelhaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="582">
           <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#431#432#0" expanded="true" />
             <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
