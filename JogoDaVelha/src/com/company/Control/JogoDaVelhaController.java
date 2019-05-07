@@ -55,7 +55,6 @@ public class JogoDaVelhaController {
     }
 
     public boolean ganhou() {
-        boolean ganhou = false;
         if(matriz[0][0]!=null && matriz[0][1] != null && matriz[0][2] != null){
             if(matriz[0][0].equals(matriz[0][1]) && matriz[0][1].equals(matriz[0][2])) {
                 ganhou = true;
