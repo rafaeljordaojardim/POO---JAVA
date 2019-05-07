@@ -85,17 +85,16 @@ public class JogoDaVelhaController {
                 ganhou = true;
                 this.setJogador(matriz[0][2]);
             }
-        }else if(matriz[0][0]!=null&&matriz[1][1]!=null&&matriz[2][2]!=null) {
+        }
             if (matriz[0][0].equals(matriz[1][1]) && matriz[1][1].equals(matriz[2][2])) {
                 ganhou = true;
                 this.setJogador(matriz[0][0]);
             }
-        }else if(matriz[0][2]!=null&&matriz[1][1]!=null&&matriz[2][0]!=null){
             if (matriz[0][2].equals(matriz[1][1]) && matriz[1][1].equals(matriz[2][0])){
                 ganhou = true;
                 this.setJogador(matriz[0][2]);
             }
-        }
-        return ganhou;
+
+            return ganhou;
     }
 }

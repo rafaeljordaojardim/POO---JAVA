@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="275d1a74-ca15-4e3c-9148-4900153723e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JogoDaVelha/com/company/GUI/JogoVelhaGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JogoDaVelha/com/company/GUI/JogoVelhaGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JogoDaVelha/com/company/Control/JogoDaVelhaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JogoDaVelha/com/company/Control/JogoDaVelhaController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JogoDaVelha/com/company/GUI/JogoVelhaGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JogoDaVelha/com/company/GUI/JogoVelhaGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Control/JogoDaVelhaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/JogoDaVelhaController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Control/JogoDaVelhaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+            <state relative-caret-position="667">
+              <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#431#432#0" expanded="true" />
@@ -82,8 +82,8 @@
         <option value="$PROJECT_DIR$/src/com/company/GUI/jogoVelhaGUI.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.form" />
-        <option value="$PROJECT_DIR$/src/com/company/Control/JogoDaVelhaController.java" />
         <option value="$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Control/JogoDaVelhaController.java" />
       </list>
     </option>
   </component>
@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557262524513</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="colocando renicialização fora do for">
+      <created>1557262539168</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557262539168</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -230,6 +237,19 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/GUI/jogoDaVelhaGUI.form" />
     <entry file="file://$PROJECT_DIR$/src/com/company/GUI/jogoDaVelhaGUI.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Control.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="56" column="25" lean-forward="true" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -240,27 +260,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Control/JogoDaVelhaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        <state relative-caret-position="667">
+          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#431#432#0" expanded="true" />
             <element signature="e#460#461#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GUI/JogoVelhaGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="56" column="25" lean-forward="true" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
