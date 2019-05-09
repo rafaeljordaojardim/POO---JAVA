@@ -13,6 +13,7 @@ public class Main {
         tela.pack();
         tela.setLocationRelativeTo(null);
         tela.setSize(400,400);
+
         tela.setVisible(true);
     }
 }
