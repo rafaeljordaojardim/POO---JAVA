@@ -3,16 +3,16 @@ package view;
 import javax.swing.*;
 
 public class ProdutoGUI {
-    private JTextField textField1;
-    private JTextField textField2;
-    private JTextField textField3;
+    private JTextField txtCodProduto;
+    private JTextField txtDescricaoProduto;
+    private JTextField txtPrecoProduto;
     private JPanel panelMain;
-    private JTextField textField4;
-    private JComboBox comboBox1;
-    private JButton button1;
-    private JButton button2;
-    private JButton button3;
-    private JButton button4;
+    private JTextField txtQuantidadeEstoqueProduto;
+    private JComboBox cbxFornecedorProduto;
+    private JButton btnIncluir;
+    private JButton btnAlterar;
+    private JButton btnConsultar;
+    private JButton Excluir;
 
     public JPanel getPanelMain() {
         return panelMain;
