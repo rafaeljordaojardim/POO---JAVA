@@ -1,7 +1,9 @@
+import view.ContatoGUI;
 import view.ProdutoGUI;
 import view.TelaPrincipal;
 
 import javax.swing.*;
+import java.util.ArrayList;
 
 
 public class Main {
@@ -9,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
         JFrame tela = new JFrame("Produtos");
-        tela.setContentPane(new TelaPrincipal().getPanelPrincipal());
+        tela.setContentPane(new ContatoGUI(new ArrayList<>()).getPanelMain());
         tela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         tela.pack();
         tela.setLocationRelativeTo(null);

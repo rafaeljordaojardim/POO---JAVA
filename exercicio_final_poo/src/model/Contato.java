@@ -19,6 +19,13 @@ public class Contato {
     }
     //acessores
 
+    @Override
+    public String toString() {
+        return "nome='" + nome + '\'' +
+                ", telefone='" + telefone + '\'' +
+                ", email='" + email + '\'';
+    }
+
     public String getNome() {
         return nome;
     }
