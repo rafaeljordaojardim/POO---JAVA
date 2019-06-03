@@ -8,6 +8,10 @@ public class Fornecedor {
     private String cidade ;
     private String estado;
 
+
+
+    private Contato contato;
+
     public int getCodigo() {
         return codigo;
     }
@@ -43,17 +47,24 @@ public class Fornecedor {
     public String getCidade() {
         return cidade;
     }
+    public Contato getContato() {
+        return contato;
+    }
+
+    public void setContato(Contato contato) {
+        this.contato = contato;
+    }
+
 
     @Override
     public String toString() {
-        return "Fornecedor{" +
-                "codigo=" + codigo +
+        return "codigo=" + codigo +
                 ", razao='" + razao + '\'' +
                 ", social='" + social + '\'' +
                 ", endereco='" + endereco + '\'' +
                 ", cidade='" + cidade + '\'' +
-                ", estado='" + estado + '\'' +
-                '}';
+                ", estado='" + estado + '\n' +
+                "'contato='" + contato.toString();
     }
 
     public void setCidade(String cidade) {
@@ -68,14 +79,16 @@ public class Fornecedor {
         this.estado = estado;
     }
 
-    public Fornecedor(int codigo, String razao, String social, String endereco, String cidade, String estado) {
+    public Fornecedor(int codigo, String razao, String social, String endereco, String cidade, String estado, Contato contato) {
         this.codigo = codigo;
         this.razao = razao;
         this.social = social;
         this.endereco = endereco;
         this.cidade = cidade;
         this.estado = estado;
+        this.contato = contato;
     }
+
 
     public Fornecedor(){
         this.codigo = 0;
@@ -84,5 +97,6 @@ public class Fornecedor {
         this.endereco = "";
         this.cidade = "Mogi Mirim";
         this.estado = "SP";
+        this.contato = null;
     }
 }

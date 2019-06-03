@@ -9,7 +9,7 @@ import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ContatoGUI {
+public class ContatoGUI extends JFrame{
     private JTextField txtNomeContato;
     private JTextField txtTelefoneContato;
     private JTextField txtEmailContato;
@@ -34,13 +34,20 @@ public class ContatoGUI {
         btnConsultarContato.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                consultarContato();
+                if(contatos.size() > 0)
+                    consultarContato();
+                else
+                    Auxiliar.mensagem(Auxiliar.titleInformacao(), Auxiliar.semContatos());
             }
         });
         btnAlterarContato.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                alterarContato();
+                if(contatos.size() > 0)
+                    alterarContato();
+                else
+                    Auxiliar.mensagem(Auxiliar.titleInformacao(), Auxiliar.semContatos());
+
             }
         });
         btnSalvar.addMouseListener(new MouseAdapter() {
@@ -49,6 +56,22 @@ public class ContatoGUI {
                 salvarDados();
             }
         });
+        btnExcluirContato.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                if(contatos.size() > 0)
+                     excluirContato();
+                else
+                    Auxiliar.mensagem(Auxiliar.titleInformacao(), Auxiliar.semContatos());
+            }
+        });
+    }
+
+    private void excluirContato() {
+        Contato c = acharContatoPeloNome();
+        if (c != null){
+            contatos.remove(c);
+        }
     }
 
     private void salvarDados() {
@@ -61,6 +84,7 @@ public class ContatoGUI {
             btnSalvar.setVisible(false);
             apagarTxt();
             Auxiliar.mensagem(Auxiliar.titleInformacao(), Auxiliar.mensagemIncluido());
+            habilitarDesabilitarSalvar(false);
         }
     }//salvarDados
 
@@ -85,20 +109,23 @@ public class ContatoGUI {
             txtNomeContato.setText(c.getNome());
             txtTelefoneContato.setText(c.getTelefone());
             txtEmailContato.setText(c.getEmail());
-            btnSalvar.setVisible(true);
             indexAlterar = contatos.indexOf(c);
-        }else{
-            Auxiliar.mensagem(Auxiliar.titleInformacao(), Auxiliar.mensagemErro());
+            habilitarDesabilitarSalvar(true);
         }
-
     }//alterarContato
+
+    private void habilitarDesabilitarSalvar(boolean b) {
+        btnSalvar.setVisible(b);
+        btnAlterarContato.setVisible(!b);
+        btnConsultarContato.setVisible(!b);
+        btnExcluirContato.setVisible(!b);
+        btnIncluirContato.setVisible(!b);
+    }
 
     private void consultarContato() {
         Contato c = acharContatoPeloNome();
         if (c != null){
             Auxiliar.mensagem(Auxiliar.titleInformacao(), c.toString());
-        }else{
-            Auxiliar.mensagem(Auxiliar.titleInformacao(), Auxiliar.mensagemErro());
         }
     }//consultarContato
 
