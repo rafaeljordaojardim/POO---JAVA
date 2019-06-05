@@ -3,6 +3,7 @@ package Controller;
 import model.Cesta;
 import model.Contato;
 import model.Fornecedor;
+import model.Produto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +13,7 @@ public class Dados {
     private List<Fornecedor> fornecedores;
     private List<Contato> contatos;
     private Cesta cesta;
+    private List<Produto> produtos;
 
 
 
@@ -43,11 +45,21 @@ public class Dados {
         this.fornecedores = new ArrayList<>();
         this.contatos = new ArrayList<>();
         this.cesta = new Cesta();
+        this.produtos = new ArrayList<>();
     }
 
-    public Dados(List<Fornecedor> fornecedores, List<Contato> contatos, Cesta cesta) {
+    public List<Produto> getProdutos() {
+        return produtos;
+    }
+
+    public void setProdutos(List<Produto> produtos) {
+        this.produtos = produtos;
+    }
+
+    public Dados(List<Fornecedor> fornecedores, List<Contato> contatos, Cesta cesta, List<Produto> produtos) {
         this.fornecedores = fornecedores;
         this.contatos = contatos;
         this.cesta = cesta;
+        this.produtos = produtos;
     }
 }

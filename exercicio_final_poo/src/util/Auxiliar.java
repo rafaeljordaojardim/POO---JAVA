@@ -1,6 +1,7 @@
 package util;
 
 import model.Contato;
+import model.Fornecedor;
 
 import javax.naming.Context;
 import javax.swing.*;
@@ -48,8 +49,25 @@ public class Auxiliar {
         return retorno;
     }
 
+    public static Fornecedor pegaFornecedorCod(List<Fornecedor> fornecedores, String cod){
+        Fornecedor retorno = null;
+        for (Fornecedor c: fornecedores) {
+            if (String.valueOf(c.getCodigo()).equalsIgnoreCase(cod)){
+                retorno = c;
+            }
+        }
+        return retorno;
+    }
 
-    public static String digiteNumeroInteiro() {
-        return "Digite um número inteiro";
+    public static String digiteNumero() {
+        return "Digite um número!";
+    }
+
+    public static String adicioneFornecedor() {
+        return "Adicione um fornecedor para cadastrar Produto";
+    }
+
+    public static String verifiqueCampos() {
+        return "Verifique se os campos Código, preçço e quantidade estão com números!";
     }
 }

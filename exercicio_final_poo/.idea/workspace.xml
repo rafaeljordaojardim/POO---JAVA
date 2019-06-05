@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebee1fde-a18f-4d9f-9dfc-d9e7a7577e87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/projectExceptions/MinhasExceptions.java" afterDir="false" />
+    <list default="true" id="ebee1fde-a18f-4d9f-9dfc-d9e7a7577e87" name="Default Changelist" comment="cadastro de contato e fornecedor pronto, falta produto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicio_final_poo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicio_final_poo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicio_final_poo/model/Contato.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicio_final_poo/model/Contato.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicio_final_poo/model/Fornecedor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicio_final_poo/model/Fornecedor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Fornecedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Fornecedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicio_final_poo/Controller/Dados.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicio_final_poo/Controller/Dados.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicio_final_poo/util/Auxiliar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicio_final_poo/util/Auxiliar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicio_final_poo/view/ProdutoGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicio_final_poo/view/ProdutoGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercicio_final_poo/view/TelaPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicio_final_poo/view/TelaPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Dados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Dados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/Auxiliar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Auxiliar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ContatoGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ContatoGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/FornecedorGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/FornecedorGUI.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/FornecedorGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/FornecedorGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ProdutoGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ProdutoGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ProdutoGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ProdutoGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/TelaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaPrincipal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,33 +28,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Fornecedor.java">
+        <entry file="file://$PROJECT_DIR$/src/view/TelaPrincipal.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/Auxiliar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+            <state relative-caret-position="233">
+              <caret line="70" column="87" selection-start-line="70" selection-start-column="87" selection-end-line="70" selection-end-column="87" />
               <folding>
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1298#1299#0" expanded="true" />
+                <element signature="e#1347#1348#0" expanded="true" />
+                <element signature="e#1396#1397#0" expanded="true" />
+                <element signature="e#1466#1467#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/ContatoGUI.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/FornecedorGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="167" column="21" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/ProdutoGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="154" column="86" selection-start-line="154" selection-start-column="86" selection-end-line="154" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1290#1440#0" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+                <element signature="e#1510#1668#0" expanded="true" />
+                <element signature="e#1667#1668#0" expanded="true" />
+                <element signature="e#1704#1862#0" expanded="true" />
+                <element signature="e#1861#1862#0" expanded="true" />
+                <element signature="e#1896#2054#0" expanded="true" />
+                <element signature="e#2053#2054#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,49 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Produto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/TelaPrincipal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#TelaPrincipal#0;class#TelaPrincipal#0" />
-                <element signature="e#691#847#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#889#1048#0" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="method#chamarTelaFornecedor#0;class#TelaPrincipal#0" />
-                <element signature="method#chamarTelaContato#0;class#TelaPrincipal#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/Auxiliar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1298#1299#0" expanded="true" />
-                <element signature="e#1322#1323#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="63" column="55" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -113,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/projectExceptions/MinhasExceptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="357">
               <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
               <folding>
                 <element signature="e#139#140#0" expanded="true" />
@@ -136,48 +120,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/ContatoGUI.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/view/FornecedorGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1185">
-              <caret line="162" column="13" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#943#1099#0" expanded="true" />
-                <element signature="e#1098#1099#0" expanded="true" />
-                <element signature="e#1140#1499#0" expanded="true" />
-                <element signature="e#1498#1499#0" expanded="true" />
-                <element signature="e#10115#10116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/ContatoGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="79" column="89" lean-forward="true" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1000#1172#0" expanded="true" />
-                <element signature="e#1171#1172#0" expanded="true" />
-                <element signature="e#1378#1528#0" expanded="true" />
-                <element signature="e#1527#1528#0" expanded="true" />
-                <element signature="e#1588#1758#0" expanded="true" />
-                <element signature="e#1757#1758#0" expanded="true" />
-                <element signature="e#5189#5190#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/FornecedorGUI.form">
+        <entry file="file://$PROJECT_DIR$/src/view/ProdutoGUI.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
@@ -195,6 +138,10 @@
       <find>Contato</find>
       <find>alterarDados</find>
       <find>alterar</find>
+      <find>desa</find>
+      <find>alte</find>
+      <find>incluir</find>
+      <find>adicionar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -207,28 +154,30 @@
         <option value="$PROJECT_DIR$/src/Model/Produto.java" />
         <option value="$PROJECT_DIR$/src/Model/Cesta.java" />
         <option value="$PROJECT_DIR$/src/Model/Contato.java" />
-        <option value="$PROJECT_DIR$/src/view/ProdutoGUI.java" />
-        <option value="$PROJECT_DIR$/src/view/ProdutoGUI.form" />
         <option value="$PROJECT_DIR$/src/view/TelaPrincipal.form" />
-        <option value="$PROJECT_DIR$/src/Controller/Dados.java" />
         <option value="$PROJECT_DIR$/src/Auxiliar.java" />
         <option value="$PROJECT_DIR$/src/model/Contato.java" />
         <option value="$PROJECT_DIR$/src/view/ContatoGUI.form" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/view/FornecedorGUI.form" />
-        <option value="$PROJECT_DIR$/src/view/TelaPrincipal.java" />
         <option value="$PROJECT_DIR$/src/model/Fornecedor.java" />
         <option value="$PROJECT_DIR$/src/view/ContatoGUI.java" />
         <option value="$PROJECT_DIR$/src/projectExceptions/Exceptions.java" />
         <option value="$PROJECT_DIR$/src/projectExceptions/ExceptionNumeroNegativo.java" />
-        <option value="$PROJECT_DIR$/src/util/Auxiliar.java" />
         <option value="$PROJECT_DIR$/src/projectExceptions/MinhasExceptions.java" />
+        <option value="$PROJECT_DIR$/src/Controller/Dados.java" />
+        <option value="$PROJECT_DIR$/src/view/TelaPrincipal.java" />
         <option value="$PROJECT_DIR$/src/view/FornecedorGUI.java" />
+        <option value="$PROJECT_DIR$/src/model/Produto.java" />
+        <option value="$PROJECT_DIR$/src/view/ProdutoGUI.form" />
+        <option value="$PROJECT_DIR$/src/util/Auxiliar.java" />
+        <option value="$PROJECT_DIR$/src/view/ProdutoGUI.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="684" />
+    <option name="x" value="475" />
+    <option name="y" value="-19" />
     <option name="width" value="682" />
     <option name="height" value="727" />
   </component>
@@ -256,7 +205,7 @@
               <item name="exercicio_final_poo" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercicio_final_poo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exercicio_final_poo" type="b2602c69:ProjectViewProjectNode" />
@@ -281,18 +230,33 @@
               <item name="exercicio_final_poo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="ContatoGUI" type="e9f4de52:FormNode" />
+              <item name="FornecedorGUI" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="exercicio_final_poo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercicio_final_poo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="ProdutoGUI" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="exercicio_final_poo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercicio_final_poo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="TelaPrincipal" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="345" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -362,8 +326,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21482602" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -372,7 +337,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31751227" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31751227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -398,33 +363,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="cadastro de contato e fornecedor pronto, falta produto" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/view/ProdutoGUI.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Contato.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/TelaPrincipal.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Dados.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/ProdutoGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -442,13 +384,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/ContatoGUI.form">
+    <entry file="file://$PROJECT_DIR$/src/model/Fornecedor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ContatoGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="79" column="89" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5157#5158#0" expanded="true" />
+            <element signature="e#5189#5190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/FornecedorGUI.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Produto.java">
+    <entry file="file://$PROJECT_DIR$/src/Controller/Dados.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="229">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -462,49 +434,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/FornecedorGUI.form">
+    <entry file="file://$PROJECT_DIR$/src/view/ContatoGUI.form">
       <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/Auxiliar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/TelaPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#TelaPrincipal#0;class#TelaPrincipal#0" />
-            <element signature="e#691#847#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#889#1048#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="method#chamarTelaFornecedor#0;class#TelaPrincipal#0" />
-            <element signature="method#chamarTelaContato#0;class#TelaPrincipal#0" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/projectExceptions/MinhasExceptions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="357">
           <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
           <folding>
             <element signature="e#139#140#0" expanded="true" />
@@ -513,65 +448,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Fornecedor.java">
+    <entry file="file://$PROJECT_DIR$/src/view/TelaPrincipal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+        <state relative-caret-position="374">
+          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
           <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#TelaPrincipal#0;class#TelaPrincipal#0" />
+            <element signature="method#chamarTelaFornecedor#0;class#TelaPrincipal#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/ContatoGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/model/Produto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="79" column="89" lean-forward="true" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1000#1172#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1378#1528#0" expanded="true" />
-            <element signature="e#1527#1528#0" expanded="true" />
-            <element signature="e#1588#1758#0" expanded="true" />
-            <element signature="e#1757#1758#0" expanded="true" />
-            <element signature="e#5189#5190#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="63" column="55" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/TelaPrincipal.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ProdutoGUI.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/FornecedorGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1185">
-          <caret line="162" column="13" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
+        <state relative-caret-position="44">
+          <caret line="167" column="21" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#943#1099#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1140#1499#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#10115#10116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="418" column="34" selection-start-line="418" selection-start-column="34" selection-end-line="418" selection-end-column="34" />
+          <folding>
+            <element signature="e#17394#17395#0" expanded="true" />
+            <element signature="e#17445#17446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Auxiliar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="70" column="87" selection-start-line="70" selection-start-column="87" selection-end-line="70" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ProdutoGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="154" column="86" selection-start-line="154" selection-start-column="86" selection-end-line="154" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1290#1440#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1510#1668#0" expanded="true" />
+            <element signature="e#1667#1668#0" expanded="true" />
+            <element signature="e#1704#1862#0" expanded="true" />
+            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#1896#2054#0" expanded="true" />
+            <element signature="e#2053#2054#0" expanded="true" />
           </folding>
         </state>
       </provider>

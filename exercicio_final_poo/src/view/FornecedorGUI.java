@@ -132,7 +132,7 @@ public class FornecedorGUI {
         }
     }
 
-    public void habilitarDesabilitarSalvar(boolean b) {
+    private void habilitarDesabilitarSalvar(boolean b) {
         btnIncluir.setVisible(!b);
         btnExcluir.setVisible(!b);
         btnAlterar.setVisible(!b);
@@ -149,12 +149,12 @@ public class FornecedorGUI {
 
     private Fornecedor acharFornecedorPeloCod() {
         Fornecedor retorno = null;
-        Object[] listaDeNomes = new Object[dados.getFornecedores().size()];
+        Object[] listaDeCods = new Object[dados.getFornecedores().size()];
         for (int i = 0; i < dados.getFornecedores().size(); i++) {
-            listaDeNomes[i] = dados.getFornecedores().get(i).getCodigo();
+            listaDeCods[i] = dados.getFornecedores().get(i).getCodigo();
         }
-        Object c = JOptionPane.showInputDialog(null, "Escolha um nome", "Contatos",
-                JOptionPane.PLAIN_MESSAGE, null, listaDeNomes, "");
+        Object c = JOptionPane.showInputDialog(null, "Escolha um Cod", "Contatos",
+                JOptionPane.PLAIN_MESSAGE, null, listaDeCods, "");
         if(c!=null){
             for (Fornecedor fornecedor : dados.getFornecedores()) {
                 if (String.valueOf(fornecedor.getCodigo()).equalsIgnoreCase(c.toString())) {
@@ -162,7 +162,6 @@ public class FornecedorGUI {
                 }
             }
         }
-
         return retorno;
     }
 
@@ -192,7 +191,7 @@ public class FornecedorGUI {
                 limparCampos();
                 Auxiliar.mensagem(Auxiliar.titleInformacao(), Auxiliar.mensagemIncluido());
             } catch (NumberFormatException e) {
-                Auxiliar.mensagem(Auxiliar.titleInformacao(), Auxiliar.digiteNumeroInteiro());
+                Auxiliar.mensagem(Auxiliar.titleInformacao(), Auxiliar.digiteNumero());
                 limparCodAndFocus();
             } catch (MinhasExceptions minhasExceptions) {
                 Auxiliar.mensagem(Auxiliar.titleInformacao(), minhasExceptions.getMessage());

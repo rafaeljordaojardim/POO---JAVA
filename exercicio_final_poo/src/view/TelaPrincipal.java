@@ -39,6 +39,24 @@ public class TelaPrincipal {
                 chamarTelaFornecedor();
             }
         });
+        btnProduto.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                chamarTelaProduto();
+            }
+        });
+    }
+
+    private void chamarTelaProduto() {
+        if(dados.getFornecedores().size() == 0){
+            Auxiliar.mensagem(Auxiliar.titleInformacao(), Auxiliar.adicioneFornecedor());
+        }else {
+            JFrame tela = new JFrame("Produto");
+            tela.setContentPane(new ProdutoGUI(dados).getPanelMain());
+            tela.setLocationRelativeTo(null);
+            tela.setSize(630,350);
+            tela.setVisible(true);
+        }
     }
 
     private void chamarTelaFornecedor() {
