@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebee1fde-a18f-4d9f-9dfc-d9e7a7577e87" name="Default Changelist" comment="cadastro de contato e fornecedor pronto, falta produto">
+    <list default="true" id="ebee1fde-a18f-4d9f-9dfc-d9e7a7577e87" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exercicio_final_poo/Controller/Dados.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicio_final_poo/Controller/Dados.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exercicio_final_poo/util/Auxiliar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicio_final_poo/util/Auxiliar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exercicio_final_poo/view/ProdutoGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicio_final_poo/view/ProdutoGUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exercicio_final_poo/view/TelaPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicio_final_poo/view/TelaPrincipal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Dados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Dados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/Auxiliar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Auxiliar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/FornecedorGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/FornecedorGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ProdutoGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ProdutoGUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ProdutoGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ProdutoGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TelaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaPrincipal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -321,14 +314,20 @@
       <option name="project" value="LOCAL" />
       <updated>1559527106226</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="simple project done">
+      <created>1559695280827</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559695280827</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -337,14 +336,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31751227" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31751227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -360,7 +359,8 @@
     <MESSAGE value="contatoGUI, telaPrincipalGUI e ProdutoGUI montados" />
     <MESSAGE value="Tela de contato pronta, falta exeções" />
     <MESSAGE value="cadastro de contato e fornecedor pronto, falta produto" />
-    <option name="LAST_COMMIT_MESSAGE" value="cadastro de contato e fornecedor pronto, falta produto" />
+    <MESSAGE value="simple project done" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple project done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/model/Contato.java">
